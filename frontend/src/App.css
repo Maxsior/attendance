@@ -1,0 +1,48 @@
+:root {
+  --offset: 40px;
+  --font-size-title: 20px;
+  --font-size-base: 14px;
+  --radius: 4px;
+  --button-color: #fff;
+  --button-bg: #0186fc;
+}
+
+.wrapper {
+  width: 300px;
+  margin: auto;
+  padding: var(--offset);
+}
+
+.title {
+  text-align: center;
+  font-weight: normal;
+  font-size: var(--font-size-title);
+}
+
+.amount {
+  font-weight: bold;
+  font-size: var(--font-size-base);
+  text-align: left;
+}
+
+.control {
+  padding:5px 14px;
+  font-size: var(--font-size-base);
+  border-radius: var(--radius);
+  border: 1px solid gray;
+  flex: 1;
+}
+
+input.control {
+  margin-right: 10px;
+  flex: 1 0 auto;
+}
+
+button.control {
+  background: var(--button-bg);
+  color: var(--button-color);
+}
+
+#add-attendee {
+  display: flex;
+}
